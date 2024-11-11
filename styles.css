@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    /* background: #20e22d; */
+    padding: 50px 200px;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #0011ff;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+
+
+img{
+    max-width: 100%;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(.5) rotate(-360deg);
+    filter: grayscale(1);
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #ff0000;
+    margin-bottom: 100px;
+    font-weight: 700;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center; /* Centra el iframe horizontalmente */
+    align-items: center;     /* Centra el iframe verticalmente */
+    height: 100vh;           /* Altura completa de la ventana */
+}
+
+iframe {
+    max-width: 90%; /* Asegura que el iframe no exceda el ancho de su contenedor */
+}
+
+form{
+    width: 500px;
+    background: #2396bd;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form label{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+form input{
+    margin-bottom: 12px;
+    width: 60%;
+    padding: 12px 16px;
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid #00ff00;
+    color: #ff0000;
+}
+
+form button{
+    background: #fff;
+    color: #2396bd;
+    font-size: 24px;
+    padding: 14px 30px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
